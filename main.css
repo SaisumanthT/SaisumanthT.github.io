@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Trirong');html body{
+  scroll-behavior: smooth;
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+.sticky-top{
+  opacity: 0.9
+}
+.jumbotron{
+  border: 6px solid white;
+}
+.nav justify-content-center{
+  background-color:  #d6d6c2;
+}
+.chu {
+  text-align: right;
+  right: 0px;
+}
+.division-one {animation-timing-function: linear;}
+.division-two {animation-timing-function: ease;}
+.division-three {animation-timing-function: ease-in;}
+.division-four {animation-timing-function: ease-out;}
+.division-five{animation-timing-function: ease-in-out;}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.imagee{
+  margin-left: 20px;
+  top: 45px;
+  margin-top: 20px;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  position: fixed;
+  overflow: visible;
+  bottom: 15px;
+  right: 18px;
+  width: 300px;
+}
+.division-two{
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+.division-three{
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+.division-four{
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}.division-five{
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.division-one{
+  background-color: #e6e6e6;
+  height: 550px;
+  margin-top: 10px;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+  border:6px solid white
+}
+.division-one p{
+  position: absolute;
+  background: grey
+  display: inline;
+  font-family:  'Trirong', cursive;
+  bottom: 200px;
+  left: 54%;
+  font-size: 1.2em;
+
+}
+.h1-wala{
+  position: absolute;
+  left: 59%;
+  font-family: 'Jura', sans-serif;
+  bottom: 320px;
+  color: black;
+}
+.h2-wala{
+  position: absolute;
+  left: 55%;
+font-family: 'Alfa Slab One', cursive;  bottom: 400px;
+  font-size: 3.2em;
+}
+
+#button-wala{
+  position: absolute;
+  left: 64%;
+  bottom: 100px;
+}
+#division-two{
+  margin: 3px;
+}
+.two-image{
+  position: relative;
+  left: 52%;
+  bottom: 250px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.card-wala{
+margin-left: 3%;
+position: relative;
+font-family: 'Montserrat', sans-serif;
+top: 70px;
+}
+.card-wala1{
+  position: relative;
+  left: 52%;
+font-family: 'Montserrat', sans-serif;
+  bottom: 99px;
+}
+.three-image{
+  bottom: 365px;
+  left: 3%;
+  position: relative;
+}
+.card-wala2{
+  position: relative;
+  margin-left: 3%;
+   bottom: 190px;
+font-family: 'Montserrat', sans-serif;
+}
+.four-image{
+  position: relative;
+  left: 54%;
+  bottom: 450px;
+}
+.card-wala3{
+  position: relative;
+  left: 52%;
+font-family: 'Montserrat', sans-serif;  bottom: 260px;
+}
+.five-image{
+  position: relative;
+  left: 3%;
+  bottom: 555px;
+}
+.card-wala4{
+  bottom: 380px;
+font-family: 'Montserrat', sans-serif;  position: relative;
+  left: 3%;
+}
+.six-image{
+  position: relative;
+
+  left: 53%;
+  margin-top: -900px;
+}
+
+.contact-us h1{
+    bottom: 650px;
+    position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-1{
+  bottom: 680px;
+  left: 45%;
+  position: relative;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.contact2{
+  position: relative;
+  bottom: 200px;
+}
+
+.foot{
+  position: relative;
+  left: 35%;
+}
+.last-wala{
+  font-family: 'Montserrat', sans-serif;
+  background-color:   #d6d6c2;
+  border: 4px solid white;
+}
